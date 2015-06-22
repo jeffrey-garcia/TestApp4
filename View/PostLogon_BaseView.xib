@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HsbcUIWebviewController">
+            <connections>
+                <outlet property="view" destination="Txu-1F-Qfu" id="0IQ-3B-q1S"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Txu-1F-Qfu">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view tag="1" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sg1-U9-5pU">
+                    <rect key="frame" x="149" y="143" width="334" height="313"/>
+                    <subviews>
+                        <webView tag="2" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nar-96-eAc" customClass="HsbcUIWebView">
+                            <rect key="frame" x="121" y="54" width="102" height="169"/>
+                        </webView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Nar-96-eAc" firstAttribute="leading" secondItem="sg1-U9-5pU" secondAttribute="leading" id="f5l-bI-z2c"/>
+                        <constraint firstItem="Nar-96-eAc" firstAttribute="top" secondItem="sg1-U9-5pU" secondAttribute="top" id="oit-1b-izN"/>
+                        <constraint firstAttribute="trailing" secondItem="Nar-96-eAc" secondAttribute="trailing" id="r79-Lt-PcX"/>
+                        <constraint firstAttribute="bottom" secondItem="Nar-96-eAc" secondAttribute="bottom" id="yda-Yp-knO"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="sg1-U9-5pU" firstAttribute="top" secondItem="Txu-1F-Qfu" secondAttribute="top" constant="20" id="36L-QH-87M"/>
+                <constraint firstItem="sg1-U9-5pU" firstAttribute="leading" secondItem="Txu-1F-Qfu" secondAttribute="leading" id="JLG-J7-Fnr"/>
+                <constraint firstAttribute="trailing" secondItem="sg1-U9-5pU" secondAttribute="trailing" id="YMV-Zd-tNV"/>
+                <constraint firstAttribute="bottom" secondItem="sg1-U9-5pU" secondAttribute="bottom" id="xx2-02-ZsI"/>
+            </constraints>
+            <point key="canvasLocation" x="271" y="205"/>
+        </view>
+    </objects>
+</document>

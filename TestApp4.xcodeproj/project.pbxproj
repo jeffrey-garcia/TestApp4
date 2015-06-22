@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		073E4CAC1AFCCF28001A6FE2 /* tc.html in Resources */ = {isa = PBXBuildFile; fileRef = 073E4CAB1AFCCF28001A6FE2 /* tc.html */; };
+		073E4CAE1AFCCF45001A6FE2 /* pre_logon_home.html in Resources */ = {isa = PBXBuildFile; fileRef = 073E4CAD1AFCCF45001A6FE2 /* pre_logon_home.html */; };
+		073E4CBC1AFCCFC2001A6FE2 /* HsbcUIActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E4CB11AFCCFC2001A6FE2 /* HsbcUIActivityIndicatorView.m */; };
+		073E4CBD1AFCCFC2001A6FE2 /* HsbcUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E4CB31AFCCFC2001A6FE2 /* HsbcUIButton.m */; };
+		073E4CBE1AFCCFC2001A6FE2 /* HsbcUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E4CB51AFCCFC2001A6FE2 /* HsbcUILabel.m */; };
+		073E4CBF1AFCCFC2001A6FE2 /* HsbcUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E4CB71AFCCFC2001A6FE2 /* HsbcUITextField.m */; };
+		073E4CC01AFCCFC2001A6FE2 /* HsbcUITextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E4CB91AFCCFC2001A6FE2 /* HsbcUITextFieldDelegate.m */; };
+		073E4CC11AFCCFC2001A6FE2 /* HsbcUIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E4CBB1AFCCFC2001A6FE2 /* HsbcUIWebView.m */; };
+		073E4CC41AFCD1B9001A6FE2 /* T_C.xib in Resources */ = {isa = PBXBuildFile; fileRef = 073E4CC21AFCD1B9001A6FE2 /* T_C.xib */; };
+		073E4CC51AFCD1B9001A6FE2 /* PreLogon_Home.xib in Resources */ = {isa = PBXBuildFile; fileRef = 073E4CC31AFCD1B9001A6FE2 /* PreLogon_Home.xib */; };
+		073E4CCA1AFCD246001A6FE2 /* HsbcUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E4CC71AFCD246001A6FE2 /* HsbcUIViewController.m */; };
+		073E4CCB1AFCD246001A6FE2 /* HsbcUIWebviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E4CC91AFCD246001A6FE2 /* HsbcUIWebviewController.m */; };
+		073E4CCE1AFCD280001A6FE2 /* HsbcUrlResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E4CCD1AFCD280001A6FE2 /* HsbcUrlResolver.m */; };
+		073E4CD41AFCD2CC001A6FE2 /* LoadNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E4CD11AFCD2CC001A6FE2 /* LoadNextView.m */; };
+		073E4CD51AFCD2CC001A6FE2 /* SetterUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E4CD31AFCD2CC001A6FE2 /* SetterUI.m */; };
+		073E4CD71AFCD2FD001A6FE2 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 073E4CD61AFCD2FD001A6FE2 /* Launch Screen.xib */; };
+		07443DAB1AFE392C00AF1C4B /* HsbcUISlideWebviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07443DAA1AFE392C00AF1C4B /* HsbcUISlideWebviewController.m */; };
+		07443DAE1AFE3EF300AF1C4B /* InitUISlideWebview.m in Sources */ = {isa = PBXBuildFile; fileRef = 07443DAD1AFE3EF300AF1C4B /* InitUISlideWebview.m */; };
+		07AB1DCA1B1425380021C146 /* hsbc_website.html in Resources */ = {isa = PBXBuildFile; fileRef = 07AB1DC61B1425380021C146 /* hsbc_website.html */; };
+		07AB1DCB1B1425380021C146 /* post_logon_base.html in Resources */ = {isa = PBXBuildFile; fileRef = 07AB1DC71B1425380021C146 /* post_logon_base.html */; };
+		07AB1DCC1B1425380021C146 /* post_logon_left.html in Resources */ = {isa = PBXBuildFile; fileRef = 07AB1DC81B1425380021C146 /* post_logon_left.html */; };
+		07AB1DCD1B1425380021C146 /* post_logon_main.html in Resources */ = {isa = PBXBuildFile; fileRef = 07AB1DC91B1425380021C146 /* post_logon_main.html */; };
+		07AB1DD11B14256E0021C146 /* GetterUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AB1DCF1B14256E0021C146 /* GetterUI.m */; };
+		07AB1DD51B14258D0021C146 /* In_App_Webview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07AB1DD21B14258D0021C146 /* In_App_Webview.xib */; };
+		07AB1DD61B14258D0021C146 /* PostLogon_BaseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07AB1DD31B14258D0021C146 /* PostLogon_BaseView.xib */; };
+		07AB1DD71B14258D0021C146 /* PostLogon_MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07AB1DD41B14258D0021C146 /* PostLogon_MainView.xib */; };
+		07AB1DDC1B142D840021C146 /* PostLogon_LeftView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07AB1DDB1B142D840021C146 /* PostLogon_LeftView.xib */; };
+		07E737351AF0682F00986F00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E737341AF0682F00986F00 /* main.m */; };
+		07E737381AF0682F00986F00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E737371AF0682F00986F00 /* AppDelegate.m */; };
+		07E7373B1AF0682F00986F00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E7373A1AF0682F00986F00 /* ViewController.m */; };
+		07E737401AF0682F00986F00 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E7373F1AF0682F00986F00 /* Images.xcassets */; };
+		07E9101F1AFD98B400FCD1F8 /* BackPrevView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E9101E1AFD98B400FCD1F8 /* BackPrevView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		073E4CAB1AFCCF28001A6FE2 /* tc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = tc.html; path = Web/tc.html; sourceTree = "<group>"; };
+		073E4CAD1AFCCF45001A6FE2 /* pre_logon_home.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = pre_logon_home.html; path = Web/pre_logon_home.html; sourceTree = "<group>"; };
+		073E4CAF1AFCCFC2001A6FE2 /* HsbcUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HsbcUI.h; path = HsbcUI/HsbcUI.h; sourceTree = "<group>"; };
+		073E4CB01AFCCFC2001A6FE2 /* HsbcUIActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HsbcUIActivityIndicatorView.h; path = HsbcUI/HsbcUIActivityIndicatorView.h; sourceTree = "<group>"; };
+		073E4CB11AFCCFC2001A6FE2 /* HsbcUIActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HsbcUIActivityIndicatorView.m; path = HsbcUI/HsbcUIActivityIndicatorView.m; sourceTree = "<group>"; };
+		073E4CB21AFCCFC2001A6FE2 /* HsbcUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HsbcUIButton.h; path = HsbcUI/HsbcUIButton.h; sourceTree = "<group>"; };
+		073E4CB31AFCCFC2001A6FE2 /* HsbcUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HsbcUIButton.m; path = HsbcUI/HsbcUIButton.m; sourceTree = "<group>"; };
+		073E4CB41AFCCFC2001A6FE2 /* HsbcUILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HsbcUILabel.h; path = HsbcUI/HsbcUILabel.h; sourceTree = "<group>"; };
+		073E4CB51AFCCFC2001A6FE2 /* HsbcUILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HsbcUILabel.m; path = HsbcUI/HsbcUILabel.m; sourceTree = "<group>"; };
+		073E4CB61AFCCFC2001A6FE2 /* HsbcUITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HsbcUITextField.h; path = HsbcUI/HsbcUITextField.h; sourceTree = "<group>"; };
+		073E4CB71AFCCFC2001A6FE2 /* HsbcUITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HsbcUITextField.m; path = HsbcUI/HsbcUITextField.m; sourceTree = "<group>"; };
+		073E4CB81AFCCFC2001A6FE2 /* HsbcUITextFieldDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HsbcUITextFieldDelegate.h; path = HsbcUI/HsbcUITextFieldDelegate.h; sourceTree = "<group>"; };
+		073E4CB91AFCCFC2001A6FE2 /* HsbcUITextFieldDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HsbcUITextFieldDelegate.m; path = HsbcUI/HsbcUITextFieldDelegate.m; sourceTree = "<group>"; };
+		073E4CBA1AFCCFC2001A6FE2 /* HsbcUIWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HsbcUIWebView.h; path = HsbcUI/HsbcUIWebView.h; sourceTree = "<group>"; };
+		073E4CBB1AFCCFC2001A6FE2 /* HsbcUIWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HsbcUIWebView.m; path = HsbcUI/HsbcUIWebView.m; sourceTree = "<group>"; };
+		073E4CC21AFCD1B9001A6FE2 /* T_C.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = T_C.xib; path = View/T_C.xib; sourceTree = "<group>"; };
+		073E4CC31AFCD1B9001A6FE2 /* PreLogon_Home.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PreLogon_Home.xib; path = View/PreLogon_Home.xib; sourceTree = "<group>"; };
+		073E4CC61AFCD246001A6FE2 /* HsbcUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HsbcUIViewController.h; path = Controller/HsbcUIViewController.h; sourceTree = "<group>"; };
+		073E4CC71AFCD246001A6FE2 /* HsbcUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HsbcUIViewController.m; path = Controller/HsbcUIViewController.m; sourceTree = "<group>"; };
+		073E4CC81AFCD246001A6FE2 /* HsbcUIWebviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HsbcUIWebviewController.h; path = Controller/HsbcUIWebviewController.h; sourceTree = "<group>"; };
+		073E4CC91AFCD246001A6FE2 /* HsbcUIWebviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HsbcUIWebviewController.m; path = Controller/HsbcUIWebviewController.m; sourceTree = "<group>"; };
+		073E4CCC1AFCD280001A6FE2 /* HsbcUrlResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HsbcUrlResolver.h; path = Model/HsbcUrlResolver.h; sourceTree = "<group>"; };
+		073E4CCD1AFCD280001A6FE2 /* HsbcUrlResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HsbcUrlResolver.m; path = Model/HsbcUrlResolver.m; sourceTree = "<group>"; };
+		073E4CCF1AFCD2CC001A6FE2 /* HsbcHookApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HsbcHookApi.h; path = Model/HookApi/HsbcHookApi.h; sourceTree = "<group>"; };
+		073E4CD01AFCD2CC001A6FE2 /* LoadNextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadNextView.h; path = Model/HookApi/LoadNextView.h; sourceTree = "<group>"; };
+		073E4CD11AFCD2CC001A6FE2 /* LoadNextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadNextView.m; path = Model/HookApi/LoadNextView.m; sourceTree = "<group>"; };
+		073E4CD21AFCD2CC001A6FE2 /* SetterUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetterUI.h; path = Model/HookApi/SetterUI.h; sourceTree = "<group>"; };
+		073E4CD31AFCD2CC001A6FE2 /* SetterUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetterUI.m; path = Model/HookApi/SetterUI.m; sourceTree = "<group>"; };
+		073E4CD61AFCD2FD001A6FE2 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Launch Screen.xib"; path = "View/Launch Screen.xib"; sourceTree = "<group>"; };
+		07443DAA1AFE392C00AF1C4B /* HsbcUISlideWebviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HsbcUISlideWebviewController.m; path = Controller/HsbcUISlideWebviewController.m; sourceTree = "<group>"; };
+		07443DAD1AFE3EF300AF1C4B /* InitUISlideWebview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InitUISlideWebview.m; path = Model/HookApi/InitUISlideWebview.m; sourceTree = "<group>"; };
+		07AB1DC61B1425380021C146 /* hsbc_website.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = hsbc_website.html; path = Web/hsbc_website.html; sourceTree = "<group>"; };
+		07AB1DC71B1425380021C146 /* post_logon_base.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = post_logon_base.html; path = Web/post_logon_base.html; sourceTree = "<group>"; };
+		07AB1DC81B1425380021C146 /* post_logon_left.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = post_logon_left.html; path = Web/post_logon_left.html; sourceTree = "<group>"; };
+		07AB1DC91B1425380021C146 /* post_logon_main.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = post_logon_main.html; path = Web/post_logon_main.html; sourceTree = "<group>"; };
+		07AB1DCE1B14256E0021C146 /* GetterUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GetterUI.h; path = Model/HookApi/GetterUI.h; sourceTree = "<group>"; };
+		07AB1DCF1B14256E0021C146 /* GetterUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetterUI.m; path = Model/HookApi/GetterUI.m; sourceTree = "<group>"; };
+		07AB1DD01B14256E0021C146 /* InitUISlideWebview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InitUISlideWebview.h; path = Model/HookApi/InitUISlideWebview.h; sourceTree = "<group>"; };
+		07AB1DD21B14258D0021C146 /* In_App_Webview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = In_App_Webview.xib; path = View/In_App_Webview.xib; sourceTree = "<group>"; };
+		07AB1DD31B14258D0021C146 /* PostLogon_BaseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PostLogon_BaseView.xib; path = View/PostLogon_BaseView.xib; sourceTree = "<group>"; };
+		07AB1DD41B14258D0021C146 /* PostLogon_MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PostLogon_MainView.xib; path = View/PostLogon_MainView.xib; sourceTree = "<group>"; };
+		07AB1DD81B1425AA0021C146 /* HsbcUISlideWebviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HsbcUISlideWebviewController.h; path = Controller/HsbcUISlideWebviewController.h; sourceTree = "<group>"; };
+		07AB1DDB1B142D840021C146 /* PostLogon_LeftView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PostLogon_LeftView.xib; path = View/PostLogon_LeftView.xib; sourceTree = "<group>"; };
+		07E7372F1AF0682F00986F00 /* TestApp4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07E737331AF0682F00986F00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07E737341AF0682F00986F00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07E737361AF0682F00986F00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07E737371AF0682F00986F00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07E737391AF0682F00986F00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07E7373A1AF0682F00986F00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07E7373F1AF0682F00986F00 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07E7374D1AF0682F00986F00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07E7374E1AF0682F00986F00 /* TestApp4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestApp4Tests.m; sourceTree = "<group>"; };
+		07E9101E1AFD98B400FCD1F8 /* BackPrevView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackPrevView.m; path = Model/HookApi/BackPrevView.m; sourceTree = "<group>"; };
+		07E910201AFD9CED00FCD1F8 /* BackPrevView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackPrevView.h; path = Model/HookApi/BackPrevView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07E7372C1AF0682F00986F00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		074088C51AFC85D6008F5853 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				073E4CCC1AFCD280001A6FE2 /* HsbcUrlResolver.h */,
+				073E4CCD1AFCD280001A6FE2 /* HsbcUrlResolver.m */,
+				074088CE1AFC9EF3008F5853 /* HookApi */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		074088C71AFC85EC008F5853 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				073E4CD61AFCD2FD001A6FE2 /* Launch Screen.xib */,
+				073E4CC21AFCD1B9001A6FE2 /* T_C.xib */,
+				073E4CC31AFCD1B9001A6FE2 /* PreLogon_Home.xib */,
+				07AB1DD31B14258D0021C146 /* PostLogon_BaseView.xib */,
+				07AB1DD41B14258D0021C146 /* PostLogon_MainView.xib */,
+				07AB1DDB1B142D840021C146 /* PostLogon_LeftView.xib */,
+				07AB1DD21B14258D0021C146 /* In_App_Webview.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		074088C81AFC8600008F5853 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				073E4CC61AFCD246001A6FE2 /* HsbcUIViewController.h */,
+				073E4CC71AFCD246001A6FE2 /* HsbcUIViewController.m */,
+				073E4CC81AFCD246001A6FE2 /* HsbcUIWebviewController.h */,
+				073E4CC91AFCD246001A6FE2 /* HsbcUIWebviewController.m */,
+				07AB1DD81B1425AA0021C146 /* HsbcUISlideWebviewController.h */,
+				07443DAA1AFE392C00AF1C4B /* HsbcUISlideWebviewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		074088CE1AFC9EF3008F5853 /* HookApi */ = {
+			isa = PBXGroup;
+			children = (
+				073E4CCF1AFCD2CC001A6FE2 /* HsbcHookApi.h */,
+				07AB1DCE1B14256E0021C146 /* GetterUI.h */,
+				07AB1DCF1B14256E0021C146 /* GetterUI.m */,
+				073E4CD21AFCD2CC001A6FE2 /* SetterUI.h */,
+				073E4CD31AFCD2CC001A6FE2 /* SetterUI.m */,
+				073E4CD01AFCD2CC001A6FE2 /* LoadNextView.h */,
+				073E4CD11AFCD2CC001A6FE2 /* LoadNextView.m */,
+				07E910201AFD9CED00FCD1F8 /* BackPrevView.h */,
+				07E9101E1AFD98B400FCD1F8 /* BackPrevView.m */,
+				07AB1DD01B14256E0021C146 /* InitUISlideWebview.h */,
+				07443DAD1AFE3EF300AF1C4B /* InitUISlideWebview.m */,
+			);
+			name = HookApi;
+			sourceTree = "<group>";
+		};
+		07E737261AF0682E00986F00 = {
+			isa = PBXGroup;
+			children = (
+				07F6AC411AFB1B3B0091AD80 /* Web */,
+				07E7375F1AF0CEC600986F00 /* HsbcUI */,
+				074088C51AFC85D6008F5853 /* Model */,
+				074088C71AFC85EC008F5853 /* View */,
+				074088C81AFC8600008F5853 /* Controller */,
+				07E737311AF0682F00986F00 /* TestApp4 */,
+				07E7374B1AF0682F00986F00 /* TestApp4Tests */,
+				07E737301AF0682F00986F00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07E737301AF0682F00986F00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07E7372F1AF0682F00986F00 /* TestApp4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07E737311AF0682F00986F00 /* TestApp4 */ = {
+			isa = PBXGroup;
+			children = (
+				07E737361AF0682F00986F00 /* AppDelegate.h */,
+				07E737371AF0682F00986F00 /* AppDelegate.m */,
+				07E737391AF0682F00986F00 /* ViewController.h */,
+				07E7373A1AF0682F00986F00 /* ViewController.m */,
+				07E7373F1AF0682F00986F00 /* Images.xcassets */,
+				07E737321AF0682F00986F00 /* Supporting Files */,
+			);
+			path = TestApp4;
+			sourceTree = "<group>";
+		};
+		07E737321AF0682F00986F00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07E737331AF0682F00986F00 /* Info.plist */,
+				07E737341AF0682F00986F00 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07E7374B1AF0682F00986F00 /* TestApp4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				07E7374E1AF0682F00986F00 /* TestApp4Tests.m */,
+				07E7374C1AF0682F00986F00 /* Supporting Files */,
+			);
+			path = TestApp4Tests;
+			sourceTree = "<group>";
+		};
+		07E7374C1AF0682F00986F00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07E7374D1AF0682F00986F00 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07E7375F1AF0CEC600986F00 /* HsbcUI */ = {
+			isa = PBXGroup;
+			children = (
+				073E4CAF1AFCCFC2001A6FE2 /* HsbcUI.h */,
+				073E4CB01AFCCFC2001A6FE2 /* HsbcUIActivityIndicatorView.h */,
+				073E4CB11AFCCFC2001A6FE2 /* HsbcUIActivityIndicatorView.m */,
+				073E4CB21AFCCFC2001A6FE2 /* HsbcUIButton.h */,
+				073E4CB31AFCCFC2001A6FE2 /* HsbcUIButton.m */,
+				073E4CB41AFCCFC2001A6FE2 /* HsbcUILabel.h */,
+				073E4CB51AFCCFC2001A6FE2 /* HsbcUILabel.m */,
+				073E4CB61AFCCFC2001A6FE2 /* HsbcUITextField.h */,
+				073E4CB71AFCCFC2001A6FE2 /* HsbcUITextField.m */,
+				073E4CB81AFCCFC2001A6FE2 /* HsbcUITextFieldDelegate.h */,
+				073E4CB91AFCCFC2001A6FE2 /* HsbcUITextFieldDelegate.m */,
+				073E4CBA1AFCCFC2001A6FE2 /* HsbcUIWebView.h */,
+				073E4CBB1AFCCFC2001A6FE2 /* HsbcUIWebView.m */,
+			);
+			name = HsbcUI;
+			sourceTree = "<group>";
+		};
+		07F6AC411AFB1B3B0091AD80 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				07AB1DC61B1425380021C146 /* hsbc_website.html */,
+				07AB1DC71B1425380021C146 /* post_logon_base.html */,
+				07AB1DC81B1425380021C146 /* post_logon_left.html */,
+				07AB1DC91B1425380021C146 /* post_logon_main.html */,
+				073E4CAD1AFCCF45001A6FE2 /* pre_logon_home.html */,
+				073E4CAB1AFCCF28001A6FE2 /* tc.html */,
+			);
+			name = Web;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07E7372E1AF0682F00986F00 /* TestApp4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07E737521AF0682F00986F00 /* Build configuration list for PBXNativeTarget "TestApp4" */;
+			buildPhases = (
+				07E7372B1AF0682F00986F00 /* Sources */,
+				07E7372C1AF0682F00986F00 /* Frameworks */,
+				07E7372D1AF0682F00986F00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestApp4;
+			productName = TestApp4;
+			productReference = 07E7372F1AF0682F00986F00 /* TestApp4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07E737271AF0682E00986F00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = jeffrey;
+				TargetAttributes = {
+					07E7372E1AF0682F00986F00 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 9R44C6UQRU;
+					};
+				};
+			};
+			buildConfigurationList = 07E7372A1AF0682E00986F00 /* Build configuration list for PBXProject "TestApp4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07E737261AF0682E00986F00;
+			productRefGroup = 07E737301AF0682F00986F00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07E7372E1AF0682F00986F00 /* TestApp4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07E7372D1AF0682F00986F00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073E4CAC1AFCCF28001A6FE2 /* tc.html in Resources */,
+				073E4CC41AFCD1B9001A6FE2 /* T_C.xib in Resources */,
+				07AB1DD51B14258D0021C146 /* In_App_Webview.xib in Resources */,
+				07E737401AF0682F00986F00 /* Images.xcassets in Resources */,
+				07AB1DCC1B1425380021C146 /* post_logon_left.html in Resources */,
+				07AB1DD61B14258D0021C146 /* PostLogon_BaseView.xib in Resources */,
+				073E4CAE1AFCCF45001A6FE2 /* pre_logon_home.html in Resources */,
+				07AB1DCD1B1425380021C146 /* post_logon_main.html in Resources */,
+				07AB1DCB1B1425380021C146 /* post_logon_base.html in Resources */,
+				07AB1DD71B14258D0021C146 /* PostLogon_MainView.xib in Resources */,
+				073E4CC51AFCD1B9001A6FE2 /* PreLogon_Home.xib in Resources */,
+				07AB1DDC1B142D840021C146 /* PostLogon_LeftView.xib in Resources */,
+				07AB1DCA1B1425380021C146 /* hsbc_website.html in Resources */,
+				073E4CD71AFCD2FD001A6FE2 /* Launch Screen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07E7372B1AF0682F00986F00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AB1DD11B14256E0021C146 /* GetterUI.m in Sources */,
+				073E4CCE1AFCD280001A6FE2 /* HsbcUrlResolver.m in Sources */,
+				073E4CD41AFCD2CC001A6FE2 /* LoadNextView.m in Sources */,
+				073E4CBC1AFCCFC2001A6FE2 /* HsbcUIActivityIndicatorView.m in Sources */,
+				07443DAE1AFE3EF300AF1C4B /* InitUISlideWebview.m in Sources */,
+				073E4CCA1AFCD246001A6FE2 /* HsbcUIViewController.m in Sources */,
+				07E9101F1AFD98B400FCD1F8 /* BackPrevView.m in Sources */,
+				07443DAB1AFE392C00AF1C4B /* HsbcUISlideWebviewController.m in Sources */,
+				073E4CBE1AFCCFC2001A6FE2 /* HsbcUILabel.m in Sources */,
+				073E4CC01AFCCFC2001A6FE2 /* HsbcUITextFieldDelegate.m in Sources */,
+				073E4CD51AFCD2CC001A6FE2 /* SetterUI.m in Sources */,
+				07E7373B1AF0682F00986F00 /* ViewController.m in Sources */,
+				07E737381AF0682F00986F00 /* AppDelegate.m in Sources */,
+				073E4CBF1AFCCFC2001A6FE2 /* HsbcUITextField.m in Sources */,
+				07E737351AF0682F00986F00 /* main.m in Sources */,
+				073E4CBD1AFCCFC2001A6FE2 /* HsbcUIButton.m in Sources */,
+				073E4CC11AFCCFC2001A6FE2 /* HsbcUIWebView.m in Sources */,
+				073E4CCB1AFCD246001A6FE2 /* HsbcUIWebviewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		07E737501AF0682F00986F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07E737511AF0682F00986F00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07E737531AF0682F00986F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TestApp4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07E737541AF0682F00986F00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TestApp4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07E7372A1AF0682E00986F00 /* Build configuration list for PBXProject "TestApp4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E737501AF0682F00986F00 /* Debug */,
+				07E737511AF0682F00986F00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07E737521AF0682F00986F00 /* Build configuration list for PBXNativeTarget "TestApp4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E737531AF0682F00986F00 /* Debug */,
+				07E737541AF0682F00986F00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07E737271AF0682E00986F00 /* Project object */;
+}

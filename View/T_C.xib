@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HsbcUIWebviewController">
+            <connections>
+                <outlet property="view" destination="cKo-jV-cbY" id="mn9-rx-NVO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="cKo-jV-cbY">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view tag="1" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="958-pj-CL0">
+                    <rect key="frame" x="54" y="6" width="484" height="50"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6j0-Q2-FvA" customClass="HsbcUILabel">
+                            <rect key="frame" x="221" y="14" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="Fge-f3-7N2"/>
+                        <constraint firstAttribute="centerY" secondItem="6j0-Q2-FvA" secondAttribute="centerY" constant="0.5" id="V20-9u-M4z"/>
+                        <constraint firstAttribute="centerX" secondItem="6j0-Q2-FvA" secondAttribute="centerX" id="djR-4g-8iM"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="que-9g-IX3" customClass="HsbcUIButton">
+                    <rect key="frame" x="273" y="529" width="46" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="w5p-yq-ot9"/>
+                    </constraints>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBound" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.72571417297979801" green="0.72571417297979801" blue="0.72571417297979801" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="enabled">
+                            <integer key="value" value="0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <webView tag="3" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bbl-uf-XMD" customClass="HsbcUIWebView">
+                    <rect key="frame" x="180" y="184" width="240" height="128"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </webView>
+                <activityIndicatorView opaque="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Zxm-VX-FAz" customClass="HsbcUIActivityIndicatorView">
+                    <rect key="frame" x="290" y="239" width="20" height="20"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="bbl-uf-XMD" secondAttribute="trailing" id="28H-kl-D2v"/>
+                <constraint firstItem="958-pj-CL0" firstAttribute="top" secondItem="cKo-jV-cbY" secondAttribute="top" constant="20" id="4ch-hT-yuW"/>
+                <constraint firstAttribute="bottom" secondItem="que-9g-IX3" secondAttribute="bottom" constant="5" id="5wm-jj-Ivd"/>
+                <constraint firstAttribute="centerX" secondItem="que-9g-IX3" secondAttribute="centerX" id="Jcq-DW-yQL"/>
+                <constraint firstItem="Zxm-VX-FAz" firstAttribute="centerY" secondItem="bbl-uf-XMD" secondAttribute="centerY" id="MJl-YE-b2A"/>
+                <constraint firstAttribute="trailing" secondItem="958-pj-CL0" secondAttribute="trailing" id="Ra1-Is-20i"/>
+                <constraint firstItem="bbl-uf-XMD" firstAttribute="leading" secondItem="cKo-jV-cbY" secondAttribute="leading" id="X9b-ed-GYe"/>
+                <constraint firstItem="bbl-uf-XMD" firstAttribute="top" secondItem="958-pj-CL0" secondAttribute="bottom" id="baG-NX-WQv"/>
+                <constraint firstAttribute="trailing" secondItem="que-9g-IX3" secondAttribute="trailing" constant="5" id="eWS-9H-bqw"/>
+                <constraint firstItem="958-pj-CL0" firstAttribute="leading" secondItem="cKo-jV-cbY" secondAttribute="leading" id="fRC-zG-TBh"/>
+                <constraint firstAttribute="centerX" secondItem="958-pj-CL0" secondAttribute="centerX" id="gCR-do-M8P"/>
+                <constraint firstItem="que-9g-IX3" firstAttribute="top" secondItem="bbl-uf-XMD" secondAttribute="bottom" constant="5" id="gEM-SE-WdS"/>
+                <constraint firstItem="Zxm-VX-FAz" firstAttribute="centerX" secondItem="bbl-uf-XMD" secondAttribute="centerX" id="n75-XV-hhb"/>
+                <constraint firstItem="que-9g-IX3" firstAttribute="leading" secondItem="cKo-jV-cbY" secondAttribute="leading" constant="5" id="wpC-6p-Z7Z"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
